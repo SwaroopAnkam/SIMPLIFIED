@@ -1,0 +1,68 @@
+/* Styling for the buttons */
+body{
+  background: linear-gradient(to right,#509bf5, #ae2896);
+}
+.body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  bottom: 15%;
+  /* border:2px solid red; */
+  height: 25%;
+  width: 30%;
+  background: linear-gradient(to right,#509bf5, #ae2896);
+
+}
+.text{
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
+button {
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    background-color: #ffc107;
+    color: #fff;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+  }
+  
+  /* Styling for the first button */
+  button:nth-of-type(1) {
+    background-color: #007bff;
+  }
+  
+  button:nth-of-type(1):hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+  }
+  
+  /* Styling for the second button */
+  button:nth-of-type(2) {
+    background-color: #28a745;
+  }
+  
+  button:nth-of-type(2):hover {
+    background-color: #1d923e;
+    transform: translateY(-2px);
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+  }
+  
+  /* Styling for the container */
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f9e5d8;
+  }
+  span {
+    margin: 0 10px;
+  }
+  
